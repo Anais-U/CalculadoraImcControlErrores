@@ -45,8 +45,7 @@ fun HomeScreen() {
     ) {
         // Título
         Text(text = "Calculadora de IMC",
-            fontSize = 22.sp,
-
+            fontSize = 35.sp,
             modifier = Modifier.padding(bottom = 16.dp)
         )
 
@@ -102,7 +101,10 @@ fun HomeScreen() {
         }
 
         // Resultado del IMC
-        Text(text = imcResult)
+        Text(text = imcResult,
+            fontSize = 45.sp
+        )
+
     }
 }
 

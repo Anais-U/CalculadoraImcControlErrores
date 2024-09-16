@@ -6,7 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import cl.bootcamp.calculadoraimc.ui.theme.CalculadoraImcTheme
-import cl.bootcamp.calculadoraimc.vistas.HomeScreen
+import cl.bootcamp.calculadoraimc.view.HomeScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
